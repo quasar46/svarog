@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1711.41,-3040.3)">
+        <g transform="matrix(1,0,0,1,0,-40)">
+            <g id="facebook-logo" transform="matrix(1,-0,-0,1,1711.41,3080.3)">
+                <use xlink:href="#_Image1" x="0" y="0" width="28.034px" height="28.034px" transform="matrix(0.966678,0,0,0.966678,0,0)"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="29px" height="29px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABeUlEQVRIieWWMUvDQBiGn1yLoB2L4KQ4KJIpW4UMgv0D4q6/wE1HO9ap/gYHB8FVcBILyiFd5By8LuIiFkEy6FAcinHICWe4ITEhS18I5L67+55894bj8zAKA38T2AdaQJPyFAEDoCeV7gPUDPAQOAFWgbkSgZh8K8Du4sL85OXt/dYzFV4BXskwl2KgLUiOtAoghnMgSDysUq065fw0z8ApcAOMrPgycJla26yXALwAdqTSH+mJMPCdG4pC74EtqfR3nk2iADAG9vICoVilQ6n0XToYBn7NGjqLKlLpgwN4Bkys57Fs6JMjtp1lYxGoy8tMduXx9AvYsMavjjXr/L3dloDz9CIvDPw4I3QslW5k/kQgDPw1YJiOFznef2t6oHk8BRhb712p9JE9GQb+J6Yx+M0PzKaT5L2R7K5ixjHfIMPpTY+n0wWNKmZGgqQRrlIDARyTdAFVKAZ6Qip9DXQqAMdARyrdFwBS6S7QJmkXy/Y4MnnbhsMPsOFcpo4Z5RUAAAAASUVORK5CYII="/>
+    </defs>
+</svg>

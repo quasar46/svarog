@@ -1,0 +1,35 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.catalog__item {
+  position: relative;
+  box-sizing: border-box;
+  width: calc(50% - 15px);
+  background-color: #F9F3ED;
+  padding: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalog__description {
+  position: absolute;
+  height: 52px;
+  text-transform: uppercase;
+  top: 0;
+  right: 0;
+  padding-left: 80px;
+  padding-right: 40px;
+  background-color: #483F37;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: book;
+  display: flex;
+  align-items: center;
+
+}

@@ -1,0 +1,24 @@
+.show-all {
+  text-align: right;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3B302A;
+    font-weight: 500;
+    position: relative;
+    padding-right: 90px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/arrow.png);
+      width: 52px;
+      height: 20px;
+      right: 0;
+      top: 50%;
+      margin-top: -10px;
+    }
+  }
+}

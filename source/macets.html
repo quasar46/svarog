@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="top-header">
+      <a class="top-header__link" href="tel:89307635096">+7 (930) 763-50-96</a>
+    </div>
+    <div class="middle-header">
+    </div>
+    <div class="bottom-header">
+      <nav>
+        <ul class="top-menu">
+          <li class="top-menu__item"><a href="index.html">Главная</a></li>
+          <li class="top-menu__item"><a href="catalog.html">Каталог</a></li>
+          <li class="top-menu__item">
+            <a href="index.html" class="logo">
+              <img src="img/logo.png" alt="Логотип">
+            </a>
+          </li>
+          <li class="top-menu__item"><a href="order.html">Заказать</a></li>
+          <li class="top-menu__item"><a href="about.html">О нас</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Главная</a></li>
+        <li>&nbsp;/&nbsp;</li>
+        <li><a href="#">Каталог</a></li>
+        <li>&nbsp;/&nbsp;</li>
+        <li class="active">Макеты техники</li>
+      </ul>
+    </div>
+    <div class="catalog-wrapper container">
+      <div class="catalog">
+        <div class="catalog__item">
+          <img src="img/item1.png" alt="Фотография товара">
+          <p class="catalog__description">Трактор</p>
+        </div>
+        <div class="catalog__item">
+          <img src="img/item1.png" alt="Фотография товара">
+          <p class="catalog__description">Комбайн</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <ul class="contacts">
+          <li class="contacts__title">Телефон:</li>
+          <li class="contacts__item"><a href="tel:89307635096">+7 (930) 763-50-96</a></li>
+          <li class="contacts__item"><a href="tel:89207046487">+7 (920) 704-64-87</a></li>
+        </ul>
+        <ul class="contacts">
+          <li class="contacts__title">Адрес:</li>
+          <li class="contacts__item">
+            <p>г. Курск, ул. Ленина, д.1</p>
+            <p>г. Курск, ул. Ленина, д.1</p>
+          </li>
+        </ul>
+        <ul class="contacts__empty">
+        </ul>
+        <ul class="contacts">
+          <li class="contacts__title">Почта:</li>
+          <li class="contacts__item">
+            <a href="email:svarogkursk@gmail.com">svarogkursk@gmail.com</a>
+          </li>
+        </ul>
+        <ul class="contacts">
+          <li class="contacts__title">Соцсети:</li>
+          <ul class="contacts__social">
+            <li>
+              <a href="">
+                <svg width="28" height="28" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                  <g transform="matrix(1,0,0,1,-1621.19,-3040.3)">
+                    <g transform="matrix(1,0,0,1,0,-40)">
+                      <g id="vk-social-logotype" transform="matrix(1,-0,-0,1,1621.19,3080.3)">
+                        <use xlink:href="#_Image1" x="0" y="0" width="28.034px" height="28.034px"
+                          transform="matrix(0.966678,0,0,0.966678,0,0)" />
+                      </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <image id="_Image1" width="29px" height="29px"
+                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACAElEQVRIie3WT6gNYRjH8c+5XH8Sd4Wk7Egv6V1Q6i2xV/InERvKQl0Ld6cuSddGLGTDQhbKv2xs2Cir2Sg5NpMNSiT3Jk5WN1wWZ67mjjmHQ86GX00zz2+eeb/vzDzvM9NIMQxjDEP+vloYbaQYPvQJ+B080GcgDA30GQj+Q/+qZveY/xyvSvF8bPgT6CMcxecinoczWF/EOTZmzfxjeYAUw1XsL1kTGMaLkjcXFxCr0IXIsmY+VRpwK55hAQKuY2tl4m8q8VjWzG9VJjag9CrL73QVdpeTs2b+FudK1lrdNYErNf4BrKuDwvEUQ6PincV4cTz4E+iRmse/CKfLXhUasKtsFIOMFWG3wruTNfObNf4lLO0GhVMphjkV7yIemFm503qMdzhcPZFiOIQ9Vb8OuhrHykbWzD9pF9DOmvybWJk18xkFlWJYgfM1+Rophq81/iRi1syf1l30K0ox7C4m9IM6daS5uFRTVL3oNu72AoVNOPm7xGK978C9XqBwIsVwsFtCimFxiuFh8Tir4Elsx/1eoHA5xXAuxdBpuWzW7r/XUgzbOoD3aTeOX4bCCJ6kGEZSDEsq57YU+1m4kWLYWwMe1+7t6Fy93fRFu0O9xxTWoFpwr/ES02MPKn2Nev200b6jZcXWScuLrVb/zp/DvwVt9ZnZGsBoH8EtjH4DAId/1YvKm74AAAAASUVORK5CYII=" />
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <svg width="28" height="28" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                  <g transform="matrix(1,0,0,1,-1666.82,-3040.3)">
+                    <g transform="matrix(1,0,0,1,0,-40)">
+                      <g id="_87390" serif:id="87390" transform="matrix(1,-0,-0,1,1666.82,3080.3)">
+                        <use xlink:href="#_Image2" x="0" y="0" width="28.564px" height="28.424px"
+                          transform="matrix(0.984957,0,0,0.98014,0,0)" />
+                      </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <image id="_Image2" width="29px" height="29px"
+                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADSElEQVRIicXXT2hcVRQG8N9LXiUlTVxMI6naILRgGVIcSFeOEiKkmCxcCq2IpYHWtRsXQReVundnhQTdpEjBRaEBW1wIHVcWB9RBoUVpSg3qCDVKUhszLu4ZGkLmNUnBfjA83tzvnm/OPX/umUygWilneAzDOIajOIDdyGwdLSzjBi7jPL7DP7V6o6VtrFopd2E/TuE0SrF5NZ7bRYY8nk2cw0dYqNUba1l4OIR38QbW8At+xm2s7EC0B0/iGexDFz7BGdzMpSM9FYJ3cRUf4wqa7SPZDsKREsZxAi+E/UWcyaUYng4Pr+IdfF2rN9Z24KFqpZzjEAbC3g28h7HQ+SyXkqaEm+HhwwhmeA7vYy8+x4dh95AUxmO5lKUtKYZXHiRYrZR3xY/sw5IUgnuxnOEl6VgzdOMLKVRvSsl6NJfKYlVKmmaBWB+OYzI257FvoVopz2MOf+En/BvrzXWf28E/kEt1eA8rnZKmWik/ixkp/r1hsI3DGMXrmJKO9DUcDC+/r9UbrWqlvCKd6O52LXVECH6JJ4L7J67hFp7GCB7H88EbxYXgtjZxJMsVII50JgTv4iKma/XG9XWcgziLV4I3g4lavbHUyW5XkagUw+H41Rdxcr0gxPvJWM+Cf7zIaEfRyNJJ7JGOdLpWb/y9GTe+nw7eHkzG/u2JSmWxX0r7axs93ET4uhTr7thX2olon/tZeqtIcB3avDz2b1t0SaorUpZuBW3eauzftmgTC1Khj0SWdkSsjwR/QUGj6SgarW1e6jL9OFutlHs7CPZKZdMf/Pl1rXHrooE56dZvSXU4u9HjeJ+N9Vbw54qMFjaHWr2xVK2Up9zvSK/i5WqlvLEj9Yfgr5gqagwkTwsv6Vq98aPU2r7CHan3jkm9dize78T6aPCL0OqShqgMPXEfdhKewNu4hG/wbTwvxfcTnQTDbk/oLOfSzT4szTQl/N5BeAnnqpXyrM73aSeUwn6OH3JpTDwsDVHj1Ur506KLPAQW4/NAxKQ5HvYzXO6S5tKmNLWdwJEgPjTCzpGwuy90zncPDQ78ITXpF/GUdPmuDg0OLA4NDiwvLP62E7FsaHBgr1RGb0nT4C58gAuPZO59NBN+m/V//pf5D3K2O87kdKc/AAAAAElFTkSuQmCC" />
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <svg width="28" height="28" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                  <g transform="matrix(1,0,0,1,-1711.41,-3040.3)">
+                    <g transform="matrix(1,0,0,1,0,-40)">
+                      <g id="facebook-logo" transform="matrix(1,-0,-0,1,1711.41,3080.3)">
+                        <use xlink:href="#_Image3" x="0" y="0" width="28.034px" height="28.034px"
+                          transform="matrix(0.966678,0,0,0.966678,0,0)" />
+                      </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <image id="_Image3" width="29px" height="29px"
+                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABeUlEQVRIieWWMUvDQBiGn1yLoB2L4KQ4KJIpW4UMgv0D4q6/wE1HO9ap/gYHB8FVcBILyiFd5By8LuIiFkEy6FAcinHICWe4ITEhS18I5L67+55894bj8zAKA38T2AdaQJPyFAEDoCeV7gPUDPAQOAFWgbkSgZh8K8Du4sL85OXt/dYzFV4BXskwl2KgLUiOtAoghnMgSDysUq065fw0z8ApcAOMrPgycJla26yXALwAdqTSH+mJMPCdG4pC74EtqfR3nk2iADAG9vICoVilQ6n0XToYBn7NGjqLKlLpgwN4Bkys57Fs6JMjtp1lYxGoy8tMduXx9AvYsMavjjXr/L3dloDz9CIvDPw4I3QslW5k/kQgDPw1YJiOFznef2t6oHk8BRhb712p9JE9GQb+J6Yx+M0PzKaT5L2R7K5ixjHfIMPpTY+n0wWNKmZGgqQRrlIDARyTdAFVKAZ6Qip9DXQqAMdARyrdFwBS6S7QJmkXy/Y4MnnbhsMPsOFcpo4Z5RUAAAAASUVORK5CYII=" />
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <svg width="28" height="28" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                  <g transform="matrix(1,0,0,1,-1756.67,-3040.3)">
+                    <g transform="matrix(1,0,0,1,0,-40)">
+                      <g id="odnoklassniki-logo" transform="matrix(1,-0,-0,1,1756.67,3080.3)">
+                        <use xlink:href="#_Image4" x="0" y="0" width="28.034px" height="28.034px"
+                          transform="matrix(0.966678,0,0,0.966678,0,0)" />
+                      </g>
+                    </g>
+                  </g>
+                  <defs>
+                    <image id="_Image4" width="29px" height="29px"
+                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACgElEQVRIib2Wv2sUQRTHP3eKhYUpgobIiaAIMliMiIWOiIVeInYB0RQKgj8QhGCjzYGFEvAfSBSEJIhK/gNRVBQHjRodkQwYbJSINgk5PbUwGouZ1XHN3c5d7nzNzs57+/3M25n3dnNKilPABaCN1lsZKOWUFLP/CfgbnG8Q+BG476/1WtvSOh+4CpS0se+SCSXFGtz2HI4VySkp5iPi5oFebexotQAlRS9wDchlieUjFzeQBiopNoT32tgbwOUYsRjoN+BsAOtRUkwAk0qKCSVFTxB7xscvGvpCG/vFA5cBg4DwPgEM+Hm0sZ+BV82AvgzG3cCqlL8D6KoS3zC0EIzHgbmUfw54Gtx3NgO6JRloY98Dwyn/kDY2rNetzYCuVlIcCMDHAAmcA6Q29njiU1Lsx73umhZbp9PAplRGf5mSohN3iNqzxGLrtB14pqTorgLch9vXTCDEZXoHWMGfvdLAE2AS2Ojnt3vfGPAJ2FNLMKv3jmpjDwIoKXYCJS+oUnG3gIva2Ls+9jrQ2yh0NhloYx8ARSXFSlyGBWAKeKON/ZB6brqWaNbrnQNOA4Pa2B8ZC0RJsRw4D/QBSxqFJvYaVyI3tbHlBWAdwC6gH1iXJRYLTWweeA4UtbEzSoo24B6wuQ6N6JJJrAL0aWNnAHzWJ3EntiXQCrBXG6vDSW3sGFCsBxwLrQDdCVBJkVdS7FZS5ANwVyw4BvqdIEMlRQ64AtwGhgPwY9yn72szoKPa2Icp4BHvOwQMBeBHwEiWYMzpHQd24DK+BBxdIGYEOAH8xP2ablssFOAtrlGsrxEz5a+FGjGAa4Nlsn+410YsLBPmrZzHNfF/ukyLrAyUfgEQgNCQQhN6jwAAAABJRU5ErkJggg==" />
+                  </defs>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-middle">
+      <a href="index.html" class="logo logo--footer">
+        <img src="img/logo.png" alt="Логотип">
+      </a>
+    </div>
+    <div class="footer-bottom"></div>
+  </footer>
+</body>
+
+</html>

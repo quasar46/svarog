@@ -1,0 +1,37 @@
+.contacts__social {
+  display: flex;
+
+  a {
+    margin-right: 15px;
+
+    &::last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.contacts__title {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.contacts__item {
+  p {
+    color: #281D19;
+    font-weight: 400;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    color: #281D19;
+  }
+}
+
+.contacts__empty {
+  width: 203px;
+}

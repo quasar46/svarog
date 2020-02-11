@@ -1,0 +1,16 @@
+.top-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1070px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top-menu__item a {
+  color: #F9F3EE;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+}

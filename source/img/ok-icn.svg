@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1756.67,-3040.3)">
+        <g transform="matrix(1,0,0,1,0,-40)">
+            <g id="odnoklassniki-logo" transform="matrix(1,-0,-0,1,1756.67,3080.3)">
+                <use xlink:href="#_Image1" x="0" y="0" width="28.034px" height="28.034px" transform="matrix(0.966678,0,0,0.966678,0,0)"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="29px" height="29px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACgElEQVRIib2Wv2sUQRTHP3eKhYUpgobIiaAIMliMiIWOiIVeInYB0RQKgj8QhGCjzYGFEvAfSBSEJIhK/gNRVBQHjRodkQwYbJSINgk5PbUwGouZ1XHN3c5d7nzNzs57+/3M25n3dnNKilPABaCN1lsZKOWUFLP/CfgbnG8Q+BG476/1WtvSOh+4CpS0se+SCSXFGtz2HI4VySkp5iPi5oFebexotQAlRS9wDchlieUjFzeQBiopNoT32tgbwOUYsRjoN+BsAOtRUkwAk0qKCSVFTxB7xscvGvpCG/vFA5cBg4DwPgEM+Hm0sZ+BV82AvgzG3cCqlL8D6KoS3zC0EIzHgbmUfw54Gtx3NgO6JRloY98Dwyn/kDY2rNetzYCuVlIcCMDHAAmcA6Q29njiU1Lsx73umhZbp9PAplRGf5mSohN3iNqzxGLrtB14pqTorgLch9vXTCDEZXoHWMGfvdLAE2AS2Ojnt3vfGPAJ2FNLMKv3jmpjDwIoKXYCJS+oUnG3gIva2Ls+9jrQ2yh0NhloYx8ARSXFSlyGBWAKeKON/ZB6brqWaNbrnQNOA4Pa2B8ZC0RJsRw4D/QBSxqFJvYaVyI3tbHlBWAdwC6gH1iXJRYLTWweeA4UtbEzSoo24B6wuQ6N6JJJrAL0aWNnAHzWJ3EntiXQCrBXG6vDSW3sGFCsBxwLrQDdCVBJkVdS7FZS5ANwVyw4BvqdIEMlRQ64AtwGhgPwY9yn72szoKPa2Icp4BHvOwQMBeBHwEiWYMzpHQd24DK+BBxdIGYEOAH8xP2ablssFOAtrlGsrxEz5a+FGjGAa4Nlsn+410YsLBPmrZzHNfF/ukyLrAyUfgEQgNCQQhN6jwAAAABJRU5ErkJggg=="/>
+    </defs>
+</svg>

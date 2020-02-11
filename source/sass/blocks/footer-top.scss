@@ -1,0 +1,13 @@
+.footer-top {
+  background-color: #F9F3ED;
+  padding-top: 45px;
+  padding-bottom: 55px;
+  border-top: 1px solid #483F37;
+  box-sizing: border-box;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
