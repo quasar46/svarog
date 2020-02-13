@@ -6,10 +6,15 @@
   flex: 1 0 177px;
 }
 
+.slider-nav__item {
+}
+
 .slick-arrow {
   left: -50px;
 }
 
 .slider-nav__pic {
   margin-bottom: 30px;
+  outline: 0;
+  background-size: cover;
 }

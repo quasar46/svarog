@@ -1,3 +1,16 @@
+var switchBtns = document.querySelectorAll('.switch__btn');
+
+for (var i = 0; i < switchBtns.length; i++) {
+  switchBtns[i].addEventListener('click', function (evt) {
+    evt.preventDefault();
+    var active = document.querySelector('.switch__btn.active');
+    if (active) {
+      active.classList.remove('active')
+    }
+    this.classList.add('active');
+  });
+}
+
 $(document).ready(function () {
   $('.slider-for').slick({
     slidesToShow: 1,

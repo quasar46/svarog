@@ -1,0 +1,23 @@
+.switch {
+  min-height: 65px;
+  display: flex;
+
+  button {
+    background-color: #F9F3ED;
+    color: #483F37;
+  }
+
+  .active {
+    background-color: #483F37;
+    color: #ffffff;
+  }
+
+  button {
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    flex: 1 0 55px;
+    cursor: pointer;
+  }
+}

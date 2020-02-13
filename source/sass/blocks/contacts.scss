@@ -8,6 +8,10 @@
       margin-right: 0;
     }
   }
+
+  path {
+    fill: #3b302a;
+  }
 }
 
 .contacts__title {
@@ -19,6 +23,7 @@
 
 .contacts__item {
   p {
+    font-family: 'PT Sans';
     color: #281D19;
     font-weight: 400;
   }
