@@ -1,27 +1,26 @@
-var switchBtns = document.querySelectorAll('.switch__btn');
-
-for (var i = 0; i < switchBtns.length; i++) {
-  switchBtns[i].addEventListener('click', function (evt) {
-    evt.preventDefault();
-    var active = document.querySelector('.switch__btn.active');
-    if (active) {
-      active.classList.remove('active');
-    }
-    this.classList.add('active');
-  });
-}
-
-// burger
-var burger = document.querySelector('.burger');
-var menu = document.querySelector('.menu');
-
-burger.addEventListener('click', function () {
-  this.classList.toggle('active');
-  menu.classList.toggle('active');
-  document.body.classList.toggle('noscroll');
-})
-
 $(document).ready(function () {
+
+  var switchBtns = document.querySelectorAll('.switch__btn');
+  var burger = document.querySelector('.burger');
+  var menu = document.querySelector('.menu');
+
+  for (var i = 0; i < switchBtns.length; i++) {
+    switchBtns[i].addEventListener('click', function (evt) {
+      evt.preventDefault();
+      var active = document.querySelector('.switch__btn.active');
+      if (active) {
+        active.classList.remove('active');
+      }
+      this.classList.add('active');
+    });
+  }
+
+  burger.addEventListener('click', function () {
+    this.classList.toggle('active');
+    menu.classList.toggle('active');
+    document.body.classList.toggle('noscroll');
+  });
+
   $('.slider-for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
