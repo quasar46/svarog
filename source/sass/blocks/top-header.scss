@@ -1,8 +1,19 @@
 .top-header {
-  min-height: 65px;
+  height: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  &.container {
+    @media(max-width: 575.99px) {
+      padding: 0;
+      padding-right: 15px;
+    }
+  }
+
+  @media(max-width: 575.99px) {
+    height: 30px;
+  }
 }
 
 .top-header__link {
@@ -10,4 +21,8 @@
   color: #281D19;
   font-size: 24px;
   font-weight: 700;
+
+  @media(max-width: 575.99px) {
+    display: none;
+  }
 }

@@ -5,11 +5,21 @@ for (var i = 0; i < switchBtns.length; i++) {
     evt.preventDefault();
     var active = document.querySelector('.switch__btn.active');
     if (active) {
-      active.classList.remove('active')
+      active.classList.remove('active');
     }
     this.classList.add('active');
   });
 }
+
+// burger
+var burger = document.querySelector('.burger');
+var menu = document.querySelector('.menu');
+
+burger.addEventListener('click', function () {
+  this.classList.toggle('active');
+  menu.classList.toggle('active');
+  document.body.classList.toggle('noscroll');
+})
 
 $(document).ready(function () {
   $('.slider-for').slick({
@@ -17,7 +27,8 @@ $(document).ready(function () {
     slidesToScroll: 1,
     arrows: false,
     fade: true,
-    asNavFor: '.slider-nav'
+    asNavFor: '.slider-nav',
+    dots: true,
   });
 
   $('.slider-nav').slick({
@@ -28,6 +39,12 @@ $(document).ready(function () {
     autoplay: false,
     asNavFor: '.slider-for',
     prevArrow: '<img src="../img/up.png" style="width: 17px; height: 49px; top:100px; position:absolute; cursor:pointer;">',
-    nextArrow: '<img src="../img/down.png" style="width: 17px; height: 49px; bottom: 140px; position:absolute; cursor:pointer;">'
+    nextArrow: '<img src="../img/down.png" style="width: 17px; height: 49px; bottom: 140px; position:absolute; cursor:pointer;">',
+    responsive: [{
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 1
+      }
+    }]
   });
 });

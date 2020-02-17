@@ -3,4 +3,8 @@
   height: 125px;
   box-sizing: border-box;
   background-size: cover;
+
+  @media(max-width: 575.99px) {
+    height: 44px;
+  }
 }

@@ -6,12 +6,16 @@ body {
   font-family: 'Blender Pro';
   font-weight: 400;
   color: #3B302A;
+
+  &.noscroll {
+    overflow: hidden;
+  }
 }
 
 .container {
-  width: auto;
+  width: 100%;
   max-width: 1920px;
-  padding: 0 99px;
+  padding: 0 15px;
   box-sizing: border-box;
   margin: 0 auto;
 }

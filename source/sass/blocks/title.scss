@@ -1,8 +1,17 @@
 .title {
   margin-bottom: 40px;
   text-transform: uppercase;
+
+  @media(max-width: 575.99px) {
+    margin-bottom: 20px;
+  }
 }
 
 h2.title {
   font-size: 40px;
+  font-weight: 700;
+
+  @media(max-width: 575.99px) {
+    font-size: 20px;
+  }
 }

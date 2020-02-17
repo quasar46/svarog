@@ -2,6 +2,11 @@
   display: flex;
   margin-top: 155px;
   margin-bottom: 35px;
+  flex-wrap: wrap;
+
+  @media(max-width: 575.99px) {
+    margin-top: 50px;
+  }
 
   li {
     text-transform: uppercase;

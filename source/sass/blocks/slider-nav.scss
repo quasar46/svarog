@@ -3,10 +3,11 @@
   // padding-left: 65px;
   margin-left: 50px;
   margin-right: 20px;
-  flex: 1 0 177px;
-}
+  flex: 0 1 177px;
 
-.slider-nav__item {
+  @media(max-width: 991.99px) {
+    // display: none;
+  }
 }
 
 .slick-arrow {

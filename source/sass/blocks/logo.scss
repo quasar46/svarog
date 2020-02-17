@@ -5,5 +5,15 @@
   &--footer {
     width: 203px;
     height: 203px;
+
+    @media(max-width: 575.99px) {
+      display: none;
+    }
+  }
+
+  img {
+    @media(max-width: 575.99px) {
+      width: 122px;
+    }
   }
 }

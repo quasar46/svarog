@@ -1,6 +1,10 @@
 .slider-for {
   width: 620px;
   margin-right: 55px;
+
+  @media(max-width: 575.99px) {
+    // display: none;
+  }
 }
 
 .slider-for__item {

@@ -6,4 +6,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media(max-width: 575.99px) {
+    height: 31px;
+    margin-bottom: 55px;
+  }
 }

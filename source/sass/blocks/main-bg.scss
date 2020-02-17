@@ -6,4 +6,8 @@
   img {
     max-height: calc(100vh - 260px);
   }
+
+  @media(max-width: 575.99px) {
+    display: none;
+  }
 }

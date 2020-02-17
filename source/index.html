@@ -18,23 +18,27 @@
         <button class="switch__btn switch__eng">eng</button>
       </div>
       <a class="top-header__link" href="tel:89307635096">+7 (930) 763-50-96</a>
+      <!-- burger -->
+      <div class="burger" hidden>
+        <span></span>
+      </div>
     </div>
     <div class="middle-header">
     </div>
-    <div class="bottom-header">
+    <div class="bottom-header container">
       <!--верхнее меню-->
       <nav>
         <ul class="top-menu">
-          <li class="top-menu__item"><a href="">Главная</a></li>
-          <li class="top-menu__item"><a href="catalog.html">Каталог</a></li>
-          <li class="top-menu__item">
+          <li class="top-menu__item"><a href="" class="top-menu__link">Главная</a></li>
+          <li class="top-menu__item"><a href="catalog.html" class="top-menu__link">Каталог</a></li>
+          <li class="top-menu__item top-menu__item--logo">
             <!--логотип-->
             <a href="index.html" class="logo">
               <img src="img/logo.png" alt="Логотип">
             </a>
           </li>
-          <li class="top-menu__item"><a href="order.html">Заказать</a></li>
-          <li class="top-menu__item"><a href="about.html">О нас</a></li>
+          <li class="top-menu__item"><a href="order.html" class="top-menu__link">Заказать</a></li>
+          <li class="top-menu__item"><a href="about.html" class="top-menu__link">О нас</a></li>
         </ul>
       </nav>
     </div>
@@ -44,37 +48,122 @@
     <div class="main-bg">
       <img src="img/main_bg.jpg" alt="">
     </div>
-    <!--каталог-->
-    <div class="catalog-wrapper container">
-      <h2 class="title">Каталог:</h2>
-      <div class="catalog">
-        <div class="catalog__item">
-          <img src="img/item1.png" alt="Фотография товара">
-          <p class="catalog__description">Макеты техники</p>
+    <div class="container">
+      <!--каталог-->
+      <div class="catalog-wrapper">
+        <h2 class="title">Каталог:</h2>
+        <div class="catalog">
+          <div class="catalog__item">
+            <img src="img/item1.png" alt="Фотография товара">
+            <p class="catalog__description">Макеты техники</p>
+          </div>
+          <div class="catalog__item">
+            <img src="img/item1.png" alt="Фотография товара">
+            <p class="catalog__description">Настольные органайзеры</p>
+          </div>
+          <div class="catalog__item">
+            <img src="img/item1.png" alt="Фотография товара">
+            <p class="catalog__description">Чайные домики</p>
+          </div>
+          <div class="catalog__item">
+            <img src="img/item1.png" alt="Фотография товара">
+            <p class="catalog__description">Светильники и подсвечники</p>
+          </div>
+          <div class="catalog__item">
+            <img src="img/item1.png" alt="Фотография товара">
+            <p class="catalog__description">Изделия для кафе и ресторанов</p>
+          </div>
+          <div class="catalog__item">
+            <img src="img/item1.png" alt="Фотография товара">
+            <p class="catalog__description">Ежедневники</p>
+          </div>
+          <div class="show-all">
+            <a href="catalog.html">Смотрет весь каталог</a>
+          </div>
         </div>
-        <div class="catalog__item">
-          <img src="img/item1.png" alt="Фотография товара">
-          <p class="catalog__description">Настольные органайзеры</p>
-        </div>
-        <div class="catalog__item">
-          <img src="img/item1.png" alt="Фотография товара">
-          <p class="catalog__description">Чайные домики</p>
-        </div>
-        <div class="catalog__item">
-          <img src="img/item1.png" alt="Фотография товара">
-          <p class="catalog__description">Светильники и подсвечники</p>
-        </div>
-        <div class="catalog__item">
-          <img src="img/item1.png" alt="Фотография товара">
-          <p class="catalog__description">Изделия для кафе и ресторанов</p>
-        </div>
-        <div class="catalog__item">
-          <img src="img/item1.png" alt="Фотография товара">
-          <p class="catalog__description">Ежедневники</p>
-        </div>
-        <div class="show-all">
-          <a href="catalog.html">Смотрет весь каталог</a>
-        </div>
+      </div>
+      <!-- mobile menu -->
+      <div class="menu" hidden>
+        <ul class="menu-list">
+          <li>
+            <a href="#">Главная</a>
+            <svg width="25" height="9" viewBox="0 0 26 10" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+              style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+              <g transform="matrix(1,0,0,1,-151.349,-80.6138)">
+                <g transform="matrix(1,0,0,1,-43.2505,10)">
+                  <g transform="matrix(0.322863,0,0,0.322863,-179.566,-203.044)">
+                    <g transform="matrix(0.914354,0,0,0.659461,80.3297,289.167)">
+                      <path d="M1181.29,869.2L1263.06,869.2" style="fill:none;stroke-width:3.89px;" />
+                    </g>
+                    <g transform="matrix(0.659461,0,0,0.659461,390.98,289.167)">
+                      <path d="M1263.06,849.145L1283.12,869.2L1263.06,889.255"
+                        style="fill:none;stroke-width:4.7px;" />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg></li>
+          <li>
+            <a href="#">О нас</a>
+            <svg width="25" height="9" viewBox="0 0 26 10" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+              style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+              <g transform="matrix(1,0,0,1,-151.349,-80.6138)">
+                <g transform="matrix(1,0,0,1,-43.2505,10)">
+                  <g transform="matrix(0.322863,0,0,0.322863,-179.566,-203.044)">
+                    <g transform="matrix(0.914354,0,0,0.659461,80.3297,289.167)">
+                      <path d="M1181.29,869.2L1263.06,869.2" style="fill:none;stroke-width:3.89px;" />
+                    </g>
+                    <g transform="matrix(0.659461,0,0,0.659461,390.98,289.167)">
+                      <path d="M1263.06,849.145L1283.12,869.2L1263.06,889.255"
+                        style="fill:none;stroke-width:4.7px;" />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg></li>
+          <li>
+            <a href="#">Заказать</a>
+            <svg width="25" height="9" viewBox="0 0 26 10" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+              style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+              <g transform="matrix(1,0,0,1,-151.349,-80.6138)">
+                <g transform="matrix(1,0,0,1,-43.2505,10)">
+                  <g transform="matrix(0.322863,0,0,0.322863,-179.566,-203.044)">
+                    <g transform="matrix(0.914354,0,0,0.659461,80.3297,289.167)">
+                      <path d="M1181.29,869.2L1263.06,869.2" style="fill:none;stroke-width:3.89px;" />
+                    </g>
+                    <g transform="matrix(0.659461,0,0,0.659461,390.98,289.167)">
+                      <path d="M1263.06,849.145L1283.12,869.2L1263.06,889.255"
+                        style="fill:none;stroke-width:4.7px;" />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </li>
+          <li>
+            <a href="#">Каталог</a>
+            <svg width="25" height="9" viewBox="0 0 26 10" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+              style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+              <g transform="matrix(1,0,0,1,-151.349,-80.6138)">
+                <g transform="matrix(1,0,0,1,-43.2505,10)">
+                  <g transform="matrix(0.322863,0,0,0.322863,-179.566,-203.044)">
+                    <g transform="matrix(0.914354,0,0,0.659461,80.3297,289.167)">
+                      <path d="M1181.29,869.2L1263.06,869.2" style="fill:none;stroke-width:3.89px;" />
+                    </g>
+                    <g transform="matrix(0.659461,0,0,0.659461,390.98,289.167)">
+                      <path d="M1263.06,849.145L1283.12,869.2L1263.06,889.255"
+                        style="fill:none;stroke-width:4.7px;" />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </li>
+        </ul>
       </div>
     </div>
   </main>
@@ -85,46 +174,55 @@
       <div class="container">
         <ul class="contacts">
           <li class="contacts__title">Телефон:</li>
-          <li class="contacts__item"><a href="tel:89307635096">+7 (930) 763-50-96</a></li>
-          <li class="contacts__item"><a href="tel:89207046487">+7 (920) 704-64-87</a></li>
+          <div class="contacts-wrap">
+            <li class="contacts__item"><a href="tel:89307635096">+7 (930) 763-50-96</a></li>
+            <li class="contacts__item"><a href="tel:89207046487">+7 (920) 704-64-87</a></li>
+          </div>
         </ul>
         <ul class="contacts">
           <li class="contacts__title">Адрес:</li>
-          <li class="contacts__item">
-            <p>г. Курск, ул. Ленина, д.1</p>
-            <p>г. Курск, ул. Ленина, д.1</p>
-          </li>
+          <div class="contacts-wrap">
+            <li class="contacts__item">
+              <p>г. Курск, ул. Ленина, д.1</p>
+              <p>г. Курск, ул. Ленина, д.1</p>
+            </li>
+          </div>
         </ul>
         <ul class="contacts__empty">
         </ul>
         <ul class="contacts">
           <li class="contacts__title">Почта:</li>
-          <li class="contacts__item">
-            <a href="email:svarogkursk@gmail.com">svarogkursk@gmail.com</a>
-          </li>
+          <div class="contacts-wrap">
+            <li class="contacts__item">
+              <a href="email:svarogkursk@gmail.com">svarogkursk@gmail.com</a>
+            </li>
+          </div>
         </ul>
         <ul class="contacts">
-          <li class="contacts__title">Соцсети:</li>
+          <li class="contacts__title contacts__title--soc">Соцсети:</li>
           <!--социальные сети-->
           <ul class="contacts__social">
             <li>
               <a href="">
                 <!--вконтакте-->
-                <svg width="28" height="28" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
-                  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-                  <g transform="matrix(1,0,0,1,-1621.19,-3040.3)">
-                    <g transform="matrix(1,0,0,1,0,-40)">
-                      <g id="vk-social-logotype" transform="matrix(1,-0,-0,1,1621.19,3080.3)">
-                        <use xlink:href="#_Image1" x="0" y="0" width="28.034px" height="28.034px"
-                          transform="matrix(0.966678,0,0,0.966678,0,0)" />
-                      </g>
-                    </g>
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28" height="28" viewBox="0 0 94 94"
+                  style="enable-background:new 0 0 94 94;" xml:space="preserve">
+                  <g>
+                    <path d="M89,0H5C2.238,0,0,2.239,0,5v84c0,2.761,2.238,5,5,5h84c2.762,0,5-2.239,5-5V5C94,2.239,91.762,0,89,0z M74.869,52.943
+                 c2.562,2.5,5.271,4.854,7.572,7.617c1.018,1.22,1.978,2.48,2.709,3.899c1.041,2.024,0.101,4.247-1.713,4.366l-11.256-0.003
+                 c-2.906,0.239-5.22-0.931-7.172-2.918c-1.555-1.585-3.001-3.277-4.5-4.914c-0.611-0.673-1.259-1.306-2.025-1.806
+                 c-1.534-0.996-2.867-0.692-3.748,0.909c-0.896,1.63-1.103,3.438-1.185,5.255c-0.125,2.655-0.925,3.348-3.588,3.471
+                 c-5.69,0.268-11.091-0.596-16.108-3.463c-4.429-2.53-7.854-6.104-10.838-10.146c-5.816-7.883-10.27-16.536-14.27-25.437
+                 c-0.901-2.005-0.242-3.078,1.967-3.119c3.676-0.073,7.351-0.063,11.022-0.004c1.496,0.023,2.485,0.879,3.058,2.289
+                 c1.985,4.885,4.421,9.533,7.471,13.843c0.813,1.147,1.643,2.292,2.823,3.103c1.304,0.896,2.298,0.601,2.913-0.854
+                 c0.393-0.928,0.563-1.914,0.647-2.906c0.292-3.396,0.327-6.792-0.177-10.175c-0.315-2.116-1.507-3.483-3.617-3.883
+                 c-1.074-0.204-0.917-0.602-0.395-1.215c0.906-1.062,1.76-1.718,3.456-1.718l12.721-0.002c2.006,0.392,2.452,1.292,2.725,3.311
+                 l0.012,14.133c-0.021,0.782,0.391,3.098,1.795,3.61c1.123,0.371,1.868-0.53,2.54-1.244c3.048-3.235,5.22-7.056,7.167-11.009
+                 c0.857-1.743,1.6-3.549,2.32-5.356c0.533-1.337,1.367-1.995,2.875-1.971l12.246,0.013c0.36,0,0.729,0.004,1.086,0.063
+                 c2.062,0.355,2.627,1.243,1.99,3.257c-1.004,3.163-2.959,5.799-4.871,8.441c-2.043,2.825-4.224,5.557-6.252,8.396
+                 C72.411,49.38,72.561,50.688,74.869,52.943z" />
                   </g>
-                  <defs>
-                    <image id="_Image1" width="29px" height="29px"
-                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACAElEQVRIie3WT6gNYRjH8c+5XH8Sd4Wk7Egv6V1Q6i2xV/InERvKQl0Ld6cuSddGLGTDQhbKv2xs2Cir2Sg5NpMNSiT3Jk5WN1wWZ67mjjmHQ86GX00zz2+eeb/vzDzvM9NIMQxjDEP+vloYbaQYPvQJ+B080GcgDA30GQj+Q/+qZveY/xyvSvF8bPgT6CMcxecinoczWF/EOTZmzfxjeYAUw1XsL1kTGMaLkjcXFxCr0IXIsmY+VRpwK55hAQKuY2tl4m8q8VjWzG9VJjag9CrL73QVdpeTs2b+FudK1lrdNYErNf4BrKuDwvEUQ6PincV4cTz4E+iRmse/CKfLXhUasKtsFIOMFWG3wruTNfObNf4lLO0GhVMphjkV7yIemFm503qMdzhcPZFiOIQ9Vb8OuhrHykbWzD9pF9DOmvybWJk18xkFlWJYgfM1+Rophq81/iRi1syf1l30K0ox7C4m9IM6daS5uFRTVL3oNu72AoVNOPm7xGK978C9XqBwIsVwsFtCimFxiuFh8Tir4Elsx/1eoHA5xXAuxdBpuWzW7r/XUgzbOoD3aTeOX4bCCJ6kGEZSDEsq57YU+1m4kWLYWwMe1+7t6Fy93fRFu0O9xxTWoFpwr/ES02MPKn2Nev200b6jZcXWScuLrVb/zp/DvwVt9ZnZGsBoH8EtjH4DAId/1YvKm74AAAAASUVORK5CYII=" />
-                  </defs>
                 </svg>
               </a>
             </li>
@@ -194,21 +292,25 @@
             <li>
               <a href="">
                 <!--одноклассники-->
-                <svg width="28" height="28" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
-                  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-                  <g transform="matrix(1,0,0,1,-1756.67,-3040.3)">
-                    <g transform="matrix(1,0,0,1,0,-40)">
-                      <g id="odnoklassniki-logo" transform="matrix(1,-0,-0,1,1756.67,3080.3)">
-                        <use xlink:href="#_Image4" x="0" y="0" width="28.034px" height="28.034px"
-                          transform="matrix(0.966678,0,0,0.966678,0,0)" />
-                      </g>
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28" height="28" viewBox="0 0 94 94"
+                  style="enable-background:new 0 0 94 94;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path d="M47.051,37.59c5.247-0.017,9.426-4.23,9.407-9.489c-0.021-5.259-4.207-9.448-9.456-9.452
+			c-5.293-0.005-9.52,4.259-9.479,9.566C37.562,33.454,41.788,37.612,47.051,37.59z" />
+                      <path d="M89,0H5C2.239,0,0,2.238,0,5v84c0,2.762,2.239,5,5,5h84c2.762,0,5-2.238,5-5V5C94,2.238,91.762,0,89,0z M47.08,8.766
+			c10.699,0.027,19.289,8.781,19.236,19.602c-0.057,10.57-8.787,19.138-19.469,19.102c-10.576-0.036-19.248-8.803-19.188-19.396
+			C27.722,17.365,36.4,8.734,47.08,8.766z M68.753,55.072c-2.366,2.431-5.214,4.187-8.378,5.416
+			c-2.991,1.156-6.268,1.742-9.512,2.13c0.49,0.534,0.721,0.793,1.025,1.102c4.404,4.425,8.826,8.832,13.215,13.27
+			c1.494,1.511,1.81,3.386,0.985,5.145c-0.901,1.925-2.916,3.188-4.894,3.052c-1.252-0.088-2.228-0.711-3.094-1.582
+			c-3.324-3.345-6.711-6.627-9.965-10.031c-0.947-0.992-1.403-0.807-2.241,0.056c-3.343,3.442-6.738,6.831-10.155,10.2
+			c-1.535,1.514-3.36,1.785-5.143,0.922c-1.892-0.917-3.094-2.848-3.001-4.791c0.064-1.312,0.71-2.314,1.611-3.214
+			c4.356-4.351,8.702-8.713,13.05-13.072c0.289-0.288,0.557-0.597,0.976-1.045c-5.929-0.619-11.275-2.077-15.85-5.657
+			c-0.567-0.445-1.154-0.875-1.674-1.373c-2.002-1.924-2.203-4.125-0.618-6.396c1.354-1.942,3.632-2.464,5.997-1.349
+			c0.459,0.215,0.895,0.486,1.313,0.775c8.528,5.86,20.245,6.023,28.806,0.266c0.847-0.647,1.754-1.183,2.806-1.449
+			c2.045-0.525,3.947,0.224,5.045,2.012C70.314,51.496,70.297,53.488,68.753,55.072z" />
                     </g>
-                  </g>
-                  <defs>
-                    <image id="_Image4" width="29px" height="29px"
-                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACgElEQVRIib2Wv2sUQRTHP3eKhYUpgobIiaAIMliMiIWOiIVeInYB0RQKgj8QhGCjzYGFEvAfSBSEJIhK/gNRVBQHjRodkQwYbJSINgk5PbUwGouZ1XHN3c5d7nzNzs57+/3M25n3dnNKilPABaCN1lsZKOWUFLP/CfgbnG8Q+BG476/1WtvSOh+4CpS0se+SCSXFGtz2HI4VySkp5iPi5oFebexotQAlRS9wDchlieUjFzeQBiopNoT32tgbwOUYsRjoN+BsAOtRUkwAk0qKCSVFTxB7xscvGvpCG/vFA5cBg4DwPgEM+Hm0sZ+BV82AvgzG3cCqlL8D6KoS3zC0EIzHgbmUfw54Gtx3NgO6JRloY98Dwyn/kDY2rNetzYCuVlIcCMDHAAmcA6Q29njiU1Lsx73umhZbp9PAplRGf5mSohN3iNqzxGLrtB14pqTorgLch9vXTCDEZXoHWMGfvdLAE2AS2Ojnt3vfGPAJ2FNLMKv3jmpjDwIoKXYCJS+oUnG3gIva2Ls+9jrQ2yh0NhloYx8ARSXFSlyGBWAKeKON/ZB6brqWaNbrnQNOA4Pa2B8ZC0RJsRw4D/QBSxqFJvYaVyI3tbHlBWAdwC6gH1iXJRYLTWweeA4UtbEzSoo24B6wuQ6N6JJJrAL0aWNnAHzWJ3EntiXQCrBXG6vDSW3sGFCsBxwLrQDdCVBJkVdS7FZS5ANwVyw4BvqdIEMlRQ64AtwGhgPwY9yn72szoKPa2Icp4BHvOwQMBeBHwEiWYMzpHQd24DK+BBxdIGYEOAH8xP2ablssFOAtrlGsrxEz5a+FGjGAa4Nlsn+410YsLBPmrZzHNfF/ukyLrAyUfgEQgNCQQhN6jwAAAABJRU5ErkJggg==" />
-                  </defs>
                 </svg>
               </a>
             </li>

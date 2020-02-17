@@ -10,15 +10,32 @@
     position: relative;
     padding-right: 90px;
 
+    @media(max-width: 575.99px) {
+      padding-right: 40px;
+    }
+
     &::before {
       content: "";
       position: absolute;
-      background-image: url(../img/arrow.png);
+      background-image: url('../img/arrow.png');
       width: 52px;
       height: 20px;
       right: 0;
       top: 50%;
       margin-top: -10px;
+      background-repeat: no-repeat;
+
+      @media(max-width: 575.99px) {
+        content: "";
+        background-image: url('../img/arr-mobile.png');
+        margin-top: -5px;
+        width: 27px;
+        height: 10px;
+      }
+    }
+
+    @media(max-width: 575.99px) {
+      font-size: 16px;
     }
   }
 }
