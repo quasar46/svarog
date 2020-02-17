@@ -1,9 +1,13 @@
 .slider-for {
   width: 620px;
   margin-right: 55px;
+  background-color: #F9F3ED;
+  @media(max-width: 1200px) {
+    margin-right: 0;
+  }
 
-  @media(max-width: 575.99px) {
-    // display: none;
+  @media(max-width: 920px) {
+    display: none;
   }
 }
 

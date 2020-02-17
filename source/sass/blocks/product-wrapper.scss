@@ -1,4 +1,14 @@
 .product-wrapper {
   display: flex;
-  // flex-wrap: wrap;
+
+  // @media(max-width: 920px) {
+  //   flex-wrap: wrap;
+  // }
+  @media(max-width: 1200px) {
+    flex-wrap: wrap;
+  }
+
+  @media(max-width: 920px) {
+    display: block;
+  }
 }

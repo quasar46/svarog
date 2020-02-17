@@ -41,9 +41,13 @@ $(document).ready(function () {
     prevArrow: '<img src="../img/up.png" style="width: 17px; height: 49px; top:100px; position:absolute; cursor:pointer;">',
     nextArrow: '<img src="../img/down.png" style="width: 17px; height: 49px; bottom: 140px; position:absolute; cursor:pointer;">',
     responsive: [{
-      breakpoint: 900,
+      breakpoint: 921,
       settings: {
-        slidesToShow: 1
+        dots: false,
+        slidesToShow: 1,
+        vertical: false,
+        prevArrow: '<img src="../img/up.png" style="width: 17px; height: 49px; position:absolute; cursor:pointer; transform:rotate(90deg); bottom:-50px; right:30%; z-index:20;">',
+        nextArrow: '<img src="../img/down.png" style="width: 17px; height: 49px; position:absolute; cursor:pointer; transform:rotate(90deg); bottom:-50px; left:30%; z-index:20;">'
       }
     }]
   });
