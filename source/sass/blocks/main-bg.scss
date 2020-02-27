@@ -5,6 +5,8 @@
 
   img {
     max-height: calc(100vh - 260px);
+    min-height: 400px;
+    object-fit: cover;
   }
 
   @media(max-width: 575.99px) {

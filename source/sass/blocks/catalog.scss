@@ -19,6 +19,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-height: 523px;
+
+  img {
+    object-fit: contain;
+    height: 100%;
+    max-height: 523px;
+  }
 
   @media(max-width: 575.99px) {
     width: 100%;
